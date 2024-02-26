@@ -78,6 +78,7 @@ function SidebarSubmenu({ route, linkClicked }: ISidebarSubmenu) {
                 key={r.name}
               >
                 <Link
+                  legacyBehavior
                   href={r.path || ""}
                   scroll={false}
                 >

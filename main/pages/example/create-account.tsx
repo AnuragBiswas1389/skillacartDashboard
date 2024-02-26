@@ -68,7 +68,7 @@ function CrateAccount() {
               </Button>
 
               <p className="mt-4">
-                <Link href="/example/login">
+                <Link legacyBehavior href="/example/login">
                   <a
                     className="text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline"
                   >

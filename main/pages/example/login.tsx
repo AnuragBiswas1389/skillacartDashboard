@@ -63,14 +63,14 @@ function LoginPage() {
               </Button>
 
               <p className='mt-4'>
-                <Link href='/example/forgot-password'>
+                <Link legacyBehavior href='/example/forgot-password'>
                   <a className='text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline'>
                     Forgot your password?
                   </a>
                 </Link>
               </p>
               <p className='mt-1'>
-                <Link href='/example/create-account'>
+                <Link legacyBehavior href='/example/create-account'>
                   <a className='text-sm font-medium text-purple-600 dark:text-purple-400 hover:underline'>
                     Create account
                   </a>

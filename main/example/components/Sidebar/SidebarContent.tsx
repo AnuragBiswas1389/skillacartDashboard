@@ -22,7 +22,7 @@ function SidebarContent({ linkClicked }: ISidebarContent) {
 
   return (
     <div className="text-gray-500 dark:text-gray-400">
-      <Link href="/#" passHref>
+      <Link legacyBehavior href="/#" passHref>
         <div className='ml-6 py-6'>
           <a
             className="text-lg font-bold text-gray-800 dark:text-gray-200"
@@ -38,6 +38,7 @@ function SidebarContent({ linkClicked }: ISidebarContent) {
           ) : (
             <li className='relative px-6 py-3' key={route.name}>
               <Link
+                legacyBehavior
                 href={route.path || '#'}
                 scroll={false}
               >
